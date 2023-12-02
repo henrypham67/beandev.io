@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Bean Development Hub`,
+    title: `Bean Development Hub - ${process.env.NODE_ENV}`,
     siteUrl: `https://www.yourdomain.tld`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
