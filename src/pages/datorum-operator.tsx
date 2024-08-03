@@ -11,7 +11,7 @@ export const Head: HeadFC = () => (
     <>
         <meta
             name="go-import"
-            content="beandev.io/datorum git https://github.com/BeanMicro/datorum"
+            content="beandev.io/datorum-operator git https://github.com/BeanMicro/datorum.git/operator"
         />
         <meta
             name="go-source"
